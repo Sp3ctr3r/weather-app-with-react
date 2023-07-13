@@ -1,0 +1,39 @@
+body{
+  background-image: url("./image/sunset.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.row{
+  text-align: center;
+}
+
+.seperate{
+  display: inline-block;
+  height: 200px
+}
+
+.form-control{
+  background-color: transparent;
+  border: 1px solid black !important;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 24px;
+}
+.form-control:focus{
+  background-color:transparent;
+  border-radius: 25px;
+}
+.form-control:hover{
+  border-radius: 25px;
+  transition: all .6s;
+  font-style: italic;
+}
+.weatherStatus{
+  text-align: left;
+  font-size: 55px;
+  font-family:'Times New Roman', Times, serif
+}
+.col-3{
+  padding-top: 0px;
+}
